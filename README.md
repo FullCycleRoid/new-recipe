@@ -16,7 +16,7 @@
       method: POST  
       action: create  
       Success response  
-         * Code: 201 Created    
+          *Code: 201 Created    
          * Content: User object with properties    
             * id    
             * name    
