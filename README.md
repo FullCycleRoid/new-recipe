@@ -6,21 +6,25 @@
    
    - {service}/users
   
-      Users list and create operations     
+      Users list and create operations  
+        
       method: GET  
       action: list  
     
       Success response  
       Code: 200 OK  
-      Content: list objects with properties  
-         id  
-         name
-         lastname
-         firstname
+      Content: list of User objects  
      
-  method: POST
-  action: create
-    
+      method: POST  
+      action: create  
+        
+      Code: 201 Created  
+      Content: User object with properties  
+         id    
+         name    
+     `   firstname    
+    `    lastname  
+      
   - {service}/users/{id}
    
   Available all ModelViewSet actions
