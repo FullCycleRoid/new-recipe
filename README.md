@@ -5,11 +5,19 @@
    Authentication scheme works by token authentication
    
    - {service}/users
-   > Users list and create operations
-   > method: GET
-   > action: list
-   
-   
+  
+   > Users list and create operations     
+   > method: GET  
+   > action: list  
+    
+  >> Success response  
+   >> Code: 200 OK
+   >> Content: list objects with properties  
+   >> - id  
+   >> - name
+   >> - lastname
+   >> - firstname
+     
    method: POST
    action: create
     
