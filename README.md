@@ -1,8 +1,7 @@
-# Racipe app API
+# Racipe app is a simple implementation of API endpoints for maintain model objects. App is using token authentication scheme and custom user model. Also endpoints view, custom user model and token authentication mechanism covered by test using APIClient.
 
 ## ENDPOINTS
-   
-Authentication scheme works by token authentication
+Authentication scheme works using token authentication
   
 #### Next endpoints provide all ModelViewSet actions  
 **Users list and create**  
