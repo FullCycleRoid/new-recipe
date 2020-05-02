@@ -6,34 +6,34 @@
    
    - {service}/users
   
-   > Users list and create operations     
-   > method: GET  
-   > action: list  
+   Users list and create operations     
+   method: GET  
+   action: list  
     
-  >> Success response  
-   >> Code: 200 OK
-   >> Content: list objects with properties  
-   >> - id  
-   >> - name
-   >> - lastname
-   >> - firstname
+  Success response  
+  Code: 200 OK
+  Content: list objects with properties  
+  - id  
+  - name
+  - lastname
+  - firstname
      
-   method: POST
-   action: create
+  - method: POST
+  - action: create
     
-   - {service}/users/{id}
+  - {service}/users/{id}
    
-   Available all ModelViewSet actions
-   - {service}/tags
-   - {service}/tags/{name}
+  Available all ModelViewSet actions
+  - {service}/tags
+  - {service}/tags/{name}
+  
+  - {service}/igredients
+  - {service}/igredients/{id}
    
-   - {service}/igredients
-   - {service}/igredients/{id}
-   
-   Available additional action upload-images
-   - {service}/recipes
-   - {service}/recipes/{id}
-   - {service}/recipes/{id}/upload-images
+  Available additional action upload-images
+  - {service}/recipes
+  - {service}/recipes/{id}
+  - {service}/recipes/{id}/upload-images
    
     
     
