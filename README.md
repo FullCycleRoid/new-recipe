@@ -4,8 +4,9 @@
    
 Authentication scheme works by token authentication
    
+Next endpoints provide all ModelViewSet actions  
+**Users list and create**
 URL: {service}/users  
-Users list and create operations  
   
 method: GET  
 action: list  
@@ -22,7 +23,8 @@ Success response
       - name    
       - firstname    
       - lastname  
-        
+  
+**Retrieve, update and destroy User**
 URL: {service}/users/{id}  
   
 method: GET    
@@ -56,19 +58,24 @@ Success response
 Error response  
    - Code: 403 FORBIDDEN
    
-Available all ModelViewSet actions
-URL: {service}/tags
-URL: {service}/tags/{name}
+**List and create Tag object**  
+URL: {service}/tags  
   
-URL: {service}/igredients
-URL: {service}/igredients/{id}
+**Retrieve, update and destroy User**
+URL: {service}/tags/{name}  
+  
+**List and create Tag object**  
+URL: {service}/igredients  
+  
+**Retrieve, update and destroy User**
+URL: {service}/igredients/{id}  
    
-Available additional action upload-images
-URL: {service}/recipes
-URL: {service}/recipes/{id}
-URL: {service}/recipes/{id}/upload-images
-   
-    
-    
-    
-
+Provide additional action upload-images]
+**List and create Tag object**  
+URL: {service}/recipes  
+  
+**Retrieve, update and destroy User**
+URL: {service}/recipes/{id}  
+  
+**Provide additional action upload-images**
+URL: {service}/recipes/{id}/upload-images  
