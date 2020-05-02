@@ -10,20 +10,19 @@
         
       method: GET  
       action: list  
-    
       Success response  
-      Code: 200 OK  
-      Content: list of User objects  
+         Code: 200 OK  
+         Content: list of User objects  
      
       method: POST  
       action: create  
-        
-      Code: 201 Created  
-      Content: User object with properties  
-         id    
-         name    
-     `   firstname    
-    `    lastname  
+      Success response
+         Code: 201 Created  
+         Content: User object with properties  
+            id    
+            name    
+            firstname    
+            lastname  
       
   - {service}/users/{id}
    
