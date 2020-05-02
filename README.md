@@ -1,4 +1,3 @@
-# recipe-app-api
 # Racipe app API
 
 ## ENDPOINTS
@@ -6,9 +5,9 @@
    Authentication scheme works by token authentication
    
    - {service}/users
-   Users list and create operations
-   method: GET
-   action: list
+   > Users list and create operations
+   > method: GET
+   > action: list
    
    
    method: POST
