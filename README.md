@@ -10,8 +10,8 @@
       method: GET  
       action: list  
       Success response    
-*Code: 200 OK    
-*Content: list of User objects  
+* Code: 200 OK    
+* Content: list of User objects  
      
       method: POST  
       action: create  
