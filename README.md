@@ -3,8 +3,8 @@
 ## ENDPOINTS
    
 Authentication scheme works by token authentication
-   
-Next endpoints provide all ModelViewSet actions  
+  
+Next endpoints provide all ModelViewSet actions
 **Users list and create**  
 URL: {service}/users  
   
